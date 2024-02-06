@@ -46,7 +46,7 @@ export default function CreateArea({ addNotes }: CreateAreaProps) {
         type="text"
         placeholder="Title"
       />
-      <Textarea
+      <Input
         onChange={handleChange1}
         value={note}
         className="w-full mt-8 border-none p-1 outline-none resize"
